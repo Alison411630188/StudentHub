@@ -203,4 +203,4 @@ npm start
 ![flowchart](https://i.imgur.com/N4ITrFV.png)]
 
 ## Demo
-<https://studio.youtube.com/video/QCuBDac41n0/edit>
+<https://www.youtube.com/watch?v=QCuBDac41n0&ab_channel=Zoker>
