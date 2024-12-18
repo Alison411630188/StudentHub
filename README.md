@@ -197,7 +197,7 @@ npm start
 
 
 ## 架構圖
-![diagram](https://i.imgur.com/LIwblC0.png)
+![diagram](https://i.imgur.com/J067ZAI.png)
 
 ##流程圖
 
