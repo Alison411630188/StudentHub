@@ -140,18 +140,13 @@ npm start
             ]
         }
         ```
-### 2.根據 ID 或姓名查詢學生資料
+### 2.根據 ID 查詢學生資料
 + **使用到的URL**
-    + `http://localhost:2888/api/v1/user/findByName`
     + `http://localhost:2888/api/v1/user/findById`
 + ###### 取得的Request
 
     ```
     id": "6761a9da059b9c65a4204fc0
-    ```
-    or
-    ```
-    name=蔡文杰
     ```
 
 + ###### 取得的Response
@@ -205,15 +200,12 @@ npm start
         }
         ```
     
-### 4.利用ID或是姓名來刪除學生資料
+### 4.利用ID來刪除學生資料
 + **使用到的URL** 
     + `http://localhost:2888/api/v1/user/deletedById`
-    + `http://localhost:2888/api/v1/user/deletedByName`
 + ###### 取得的Request
     ```
     id=675ed9f4bc8f2ebc70989e03
-    或者
-    name=張佳慧
     ```
 + ###### 取得的Response
     - 
@@ -228,22 +220,19 @@ npm start
         }
         ```
   
-### 5.利用ID或是姓名來更新學生資料
+### 5.利用ID來更新學生資料
 + **使用到的URL**
-    + `http://localhost:2888/api/v1/user/updateByName`
     + `http://localhost:2888/api/v1/user/updateById`
 + ###### 取得的Request
   -
     ```
     id=675ed9f4bc8f2ebc70989e03
-    或者
-    name=張佳慧
     ```
   -  
     更改的部分
     ```json
     {
-        "department": "風險管理系",
+        "姓名:卓家全",
     }
     ```
 + ###### 取得的Response
