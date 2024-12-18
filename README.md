@@ -194,3 +194,10 @@ npm start
                 "email": "tkuee0787@tkuim.com"
             }
         }
+
+
+## 架構圖
+![diagram](https://i.imgur.com/LIwblC0.png)
+
+##流程圖
+
